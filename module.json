@@ -85,8 +85,8 @@
   "socket": true,
 
   "url": "https://github.com/Metofay/pf2e-ex-token-pack-character-gallery",
-  "manifest": "https://raw.githubusercontent.com/Metofay/pf2e-ex-token-pack-character-gallery//main/module.json",
-  "download": "https://github.com/Metofay/pf2e-ex-token-pack-character-gallery/archive/refs/heads/main.zip",
+  "manifest": "https://raw.githubusercontent.com/DoctorDanko/Doc-Dank-Ex-ChGr/refs/heads/main/module.json",
+  "download": "https://github.com/DoctorDanko/Doc-Dank-Ex-ChGr/archive/refs/heads/main.zip",
   "readme": "https://github.com/Metofay/pf2e-ex-token-pack-character-gallery/blob/main/README.md",
   "bugs": "https://github.com/Metofay/pf2e-ex-token-pack-character-gallery/issues",
   "changelog": "https://github.com/Metofay/pf2e-ex-token-pack-character-gallery/blob/master/CHANGELOG.md"
