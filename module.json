@@ -1,0 +1,93 @@
+{
+  "id": "pf2e-ex-token-pack-character-gallery",
+  "title": "Pathfinder 2E: EX Token Pack (Character Gallery)",
+  "description": "Дополнительный модуль для Pathfinder 2E: EX Token Pack, добавляет галерею",
+  "version": "1.1.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+  },
+  "relationships": {
+    "recommends": [
+      {
+        "id": "pf2e-ex-token-pack",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Metofay/pf2e-ex-token-pack//main/module.json"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Doctor-Metofay",
+      "discord": "Doctor-Метофей#135975",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "module/main.mjs"
+  ],
+  "styles": [
+    "styles/pf2e-tokens-characters.css"
+  ],
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Russian",
+      "path": "lang/ru.json",
+      "flags": {}
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "flags": {
+  "galleryDatasheets": {
+      "bestiaries": {
+        "label": "Bestiaries",
+        "hint": "Иллюстрации из Bestiaries, в основном взятые из трех сборников бестиариев Pathfinder Second Edition.",
+        "sheet": "modules/pf2e-ex-token-pack-character-gallery/datasheet/bestiaries.json"
+        },
+        "npc-core": {
+        "label": "NPC Core",
+        "hint": "Иллюстрация из NPC Core.",
+        "sheet": "modules/pf2e-ex-token-pack-character-gallery/datasheet/npc-core.json"
+      },
+      "abomination-vaults": {
+        "label": "Adventure Path: Abomination Vaults",
+        "hint": "Иллюстрация из Pathfinder Adventure Path: Abomination Vaults.",
+        "sheet": "modules/pf2e-ex-token-pack-character-gallery/datasheet/abomination-vaults.json"
+      },
+      "shades-of-blood": {
+        "label": "Adventure Path: Shades of Blood.",
+        "hint": "Иллюстрация из Pathfinder Adventure Path: Shades of Blood.",
+        "sheet": "modules/pf2e-ex-token-pack-character-gallery/datasheet/shades-of-blood.json"
+      },
+      "bb-bestiary": {
+        "label": "Beginner Box",
+        "hint": "Иллюстрация из Pathfinder Beginner Box.",
+        "sheet": "modules/pf2e-ex-token-pack-character-gallery/datasheet/beginner-box.json"
+      },
+      "character-gallery": {
+        "label": "Character Gallery",
+        "hint": "Иллюстрации из Character Gallery, в которых особое внимание уделяется игровым предкам для PC-персонажей и NPC-персонажей.",
+        "sheet": "modules/pf2e-ex-token-pack-character-gallery/datasheet/character-gallery.json"
+      },
+      "myth-and-magic": {
+        "label": "Myth and Magic",
+        "hint": "Иллюстрация из Myth and Magic.",
+        "sheet": "modules/pf2e-ex-token-pack-character-gallery/datasheet/myth-and-magic.json"
+      }    
+    }
+  },
+  "socket": true,
+
+  "url": "https://github.com/Metofay/pf2e-ex-token-pack-character-gallery",
+  "manifest": "https://raw.githubusercontent.com/Metofay/pf2e-ex-token-pack-character-gallery//main/module.json",
+  "download": "https://github.com/Metofay/pf2e-ex-token-pack-character-gallery/archive/refs/heads/main.zip",
+  "readme": "https://github.com/Metofay/pf2e-ex-token-pack-character-gallery/blob/main/README.md",
+  "bugs": "https://github.com/Metofay/pf2e-ex-token-pack-character-gallery/issues",
+  "changelog": "https://github.com/Metofay/pf2e-ex-token-pack-character-gallery/blob/master/CHANGELOG.md"
+}
